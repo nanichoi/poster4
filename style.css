@@ -1,5 +1,5 @@
 /* 공통  */
-div   {	border:1px solid red;}
+/* div   {	border:1px solid red;}*/
 ul,li { padding:0; margin:0;}
 body  {	margin:20px;background-color:#000;font-family: Arial, sans-serif, 'Dotum';font-size:14px;}
 #wrap {  width:100%; }
@@ -87,12 +87,12 @@ h1			{color:#fbcd2f;
 			width: 100%;
 			}
 
-.actor li 	{display:inline-block;
-			list-style:none; 
-			padding:0 10px; 
-			text-align:center;width:60px; }
-.actor li a	 {text-decoration:none;
-				color:#fff;}
+.actor li 	{display:inline-block;list-style:none;padding:0 10px;text-align:center;width:60px; }
+.actor li a	 {text-decoration:none;color:#fff;}
+
+
+
+
 
 
 /* 포스터2  */
@@ -101,71 +101,43 @@ h1			{color:#fbcd2f;
 			background-repeat: no-repeat;
 			background-position: top center;
 			}
-
   
 @media screen and (max-width:700px){					
-			.ment2		{font-size: 1.5em; 
-			font-weight:bold; 
-			color:#fff;
-			position:absolute;
-			top:250px;
-			left:10px;
-			width: 100%;
-			text-align: center;				
-			}
+			.ment2	{font-size: 1.2em;top:250px;}
 }
 @media screen and (min-width: 701px){							
-			.ment2		{font-size: 35px; 
-			font-weight:bold; 
-			color:#fff;
-			position:absolute;
-			top:250px;
-			left:30px;
-			width:420px;				
-			}
+			.ment2	{font-size: 2em;top:200px;width:420px;}
 }
+.ment2		{font-weight:bold;color:#fff;position:absolute;padding:20px;}
 
 @media screen and (max-width:700px){					
-			.contents { color:#FFF;
-						max-width:90%;
-						position:relative;
-						top:300px;
-						left:10px;
-						font-size:11px;
-						z-index:999;
-						line-height:140%;}
+			.contents { max-width:90%;margin-top:170px;font-size:0.5em}
 }
 @media screen and (min-width: 701px){								
-			.contents {
-				color:#FFF;
-				max-width:65%;
-				position:relative;
-				top:350px;
-				left:30px;
-				font-size:11px;
-				z-index:999;
-				line-height:140%;}
+			.contents {width:75%;margin-top:220px;font-size:1em}
 }
-@media screen and (max-width:700px){					
-			.contents2   { padding:10px;width: 100%; position: absolute;text-align: center;margin-bottom:0px;bottom: 20px;}
-}
-@media screen and (min-width: 701px){								
-			.contents2   { padding:10px;max-width: 100%; position: absolute;text-align: center;margin-bottom:0px;bottom: 20px;}
-}
+.contents {	color:#FFF;padding:20px;line-height:140%;}
 
 @media screen and (max-width:700px){					
-			.contents2 li {list-style-type: none; 
-					        display: block;
-					        margin: 1em 1%;
-					        padding: 0; max-width: 100%; }
+			.contents2   { width: 100%;}
 }
 @media screen and (min-width: 701px){								
-			.contents2 li {list-style-type: none; 
-					        float: left;
-					        margin: 1em 1%;
-					        padding: 0;
-					        width: 31.2%;}
+			.contents2   { max-width: 100%;}
 }
+.contents2   { padding:10px;position:absolute;text-align: center;margin-bottom:0px;bottom: 20px;}
+
+@media screen and (max-width:700px){					
+			.contents2 li {display: block;
+							max-width: 100%; }
+}
+@media screen and (min-width: 701px){								
+			.contents2 li {float: left;
+							width: 31.2%;}
+}
+.contents2 li {list-style-type: none;
+				margin: 1em 1%;
+				padding: 0;}
+
 @media screen and (max-width:700px){					
 			.contents2 li img {
         box-sizing: border-box;
@@ -205,13 +177,8 @@ h1			{color:#fbcd2f;
 			background-repeat: repeat-y;
 			background-position: top center;
 			}
-@media screen and (max-width:700px){
-            .photo  { margin:160px auto; max-width: 85%}
-}
-@media screen and (min-width: 701px){
-			.photo  { margin:90px auto; max-width: 85%}
-}
 
+.photo  { max-width: 85%;margin:20px auto 0;}
 .photo li {list-style-type: none; 
         float: left;
         margin: 1em 1%;
