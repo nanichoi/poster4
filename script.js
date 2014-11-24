@@ -22,7 +22,7 @@ function change() {
   location.href="poster5.html"
     }
 else {
-  alert("이벤트가 마감되었습니다.");
+  alert("이벤트가 마감되었습니다ㅠㅠ.");
     }
 }
 
