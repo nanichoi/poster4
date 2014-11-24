@@ -111,10 +111,10 @@ h1			{color:#fbcd2f;
 .ment2		{font-weight:bold;color:#fff;position:absolute;padding:20px;}
 
 @media screen and (max-width:700px){					
-			.contents { max-width:90%;margin-top:170px;font-size:0.5em}
+			.contents { max-width:90%;margin-top:140px;font-size:0.5em}
 }
 @media screen and (min-width: 701px){								
-			.contents {width:75%;margin-top:220px;font-size:1em}
+			.contents {width:75%;margin-top:210px;font-size:1em}
 }
 .contents {	color:#FFF;padding:20px;line-height:140%;}
 
